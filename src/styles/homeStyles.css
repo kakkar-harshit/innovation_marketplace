@@ -1,0 +1,158 @@
+.main-box{
+    margin-top: 84px;
+margin-left: 73px;
+width: 1223px;
+height: 500px;
+background: transparent radial-gradient(closest-side at 50% 50%, #FFFFFF 0%, #F4F4F4 100%) 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 50px #00000080;
+opacity: 1;
+}
+
+.option-box{
+    text-align: left;
+
+}
+
+a{
+    float:left;
+}
+.arrow{
+    width: 11px; 
+    height: 13px;
+    border-bottom: 8px solid transparent;
+    border-top: 8px solid transparent;
+    border-right: 12px solid #0036BA;
+    margin-left: 7px;
+    float: left;
+    margin-top: 4px;
+
+}
+
+.img-box{
+   
+    
+}
+
+.logo{
+    margin-top: 50px;
+    margin-left: 95px;
+    width: 346px;
+    height: 330px;
+    background: transparent url('./assets/19268.png') 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    opacity: 1;
+
+}
+
+.logo-forgot{
+    margin-top: 50px;
+    margin-left: 95px;
+    width: 346px;
+    height: 330px;
+    background: transparent url('./assets/19269.png') 0% 0% no-repeat padding-box;
+    
+    mix-blend-mode: normal;
+    opacity: 1;
+
+}
+.questionmark{
+    margin-top: 87px;
+    margin-left: -42px;
+}
+
+.fbox{
+    
+
+    width: 324px;
+    height: 298px;
+    opacity: 1;
+    flex-basis: 324px;
+}
+
+.toggle{
+    margin-left:930px;
+}
+
+.custom-switch .custom-control-input:checked ~ .custom-control-label::after {
+    background-color: #E0E0E0;
+    transform: translateX(0.75rem);
+}
+
+.switch-text{
+    float:left;
+}
+.formBox{
+    width: 324px;
+height: 298px;
+margin-left:95px;
+margin-top:85px;
+}
+
+.button{
+width: 193px;
+height: 44px;
+background: transparent linear-gradient(90deg, #22BEDD 0%, #002DB1 100%) 0% 0% no-repeat padding-box;
+box-shadow: 0px 6px 12px #0000004D;
+border-radius: 11px;
+opacity: 1;
+color:white;
+margin-top:15px;
+}
+
+.button:hover{
+    transform: translate(2px,2px)
+}
+
+.header-left{
+    float:left;
+}
+
+.header-right{
+    float:right
+}
+
+.mail-icon{
+    
+        vertical-align: middle;
+        border-style: none;
+        height: 21px;
+        width: 30px;
+        margin-top: 5px;
+        margin-right: 7px;
+        
+}
+.MuiInputBase-input{
+    border-left: 1px solid gray !important;
+    margin-bottom: 1px;
+}
+
+.pad-icon{
+    
+    vertical-align: middle;
+    border-style: none;
+    height: 21px;
+    width: 30px;
+    margin-top: 5px;
+    margin-right: 7px;
+    
+}
+
+.input-group{
+    margin-top:10 px;
+}
+
+.makeStyles-root-1 > * {
+    width: 250px;
+    margin: 25px;
+}
+
+.input-style{
+    border:none;
+    border-bottom:2px solid black;
+    margin-top:15px;
+}
+
+.input:active{
+    border:none;
+    border-bottom: 2px solid blue;
+}

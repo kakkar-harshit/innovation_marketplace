@@ -1,0 +1,106 @@
+.input-box{
+    width: 300px;
+    outline:none;
+    border: none;
+    border-bottom:2px solid #E0E0E0;
+    background-color: transparent;
+    box-shadow: none;
+    margin-top:20px;
+
+
+}
+.input-box:focus{
+    border: none;
+    border-bottom:2px solid #0070DA;
+    background-color: transparent;
+    box-shadow: none;
+
+}
+
+.input-div{
+    float: right;
+}
+.button-box {
+    margin-top: 30px;
+    margin-left: 36px;
+    background-color: transparent;
+    width: 300px;
+    height: 44px;
+    background: transparent linear-gradient(90deg, #22BEDD 0%, #002DB1 100%) 0% 0% no-repeat padding-box;
+    
+    border-radius: 11px;
+    opacity: 1;
+    outline: none;
+    color:white;
+}
+
+.button-box :active{
+    outline:none;
+    box-shadow: none;
+}
+
+.mail{
+    float:left;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 0.9fr 0.1fr 2fr;
+    grid-template-rows: 0.9fr 1.1fr 1fr 1fr;
+    grid-template-areas: "heading heading heading" "maili line mailb" "padi line2 passb" "check line3 forgot";
+  }
+  
+  .heading { grid-area: heading; 
+text-align: left;
+font-size: 25px;
+}
+
+  
+  .line { grid-area: line; 
+    border-left: 2px solid #B7B7B7;
+    height: 21px;
+    margin-top: 26px;
+    margin-left: 4px;}
+  
+  .maili { grid-area: maili; 
+margin-top:25px;}
+  
+  .mailb { grid-area: mailb; 
+    margin-left: 8px;}
+  
+  .padi { grid-area: padi;
+    margin-top:23px; }
+  
+  .line2 { grid-area: line2;
+    border-left: 2px solid #B7B7B7;
+    height: 21px;
+    margin-top: 26px;
+    margin-left: 4px;}
+  
+  .passb { grid-area: passb; }
+  
+  .lt-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "check line3 forgot";
+  }
+  
+  .check { grid-area: lt-check; 
+    margin-right: 202px;
+font-size: 14px;}
+  
+  .line3 { grid-area: lt-line3; 
+    border-left: 2px solid #B7B7B7;
+    height: 21px;
+    margin-left: 173px;
+   }
+  
+  .forgot { grid-area: lt-forgot; 
+    margin-left: 221px;
+    font-size: 14px;
+color:#003BC5;}
+
+    

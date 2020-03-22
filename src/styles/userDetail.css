@@ -1,0 +1,88 @@
+input{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #E5E5E5;
+border-radius: 4px;
+opacity: 1;
+}
+
+textarea{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #E5E5E5;
+border-radius: 4px;
+opacity: 1;
+}
+
+select{
+    width:200px;
+
+}
+
+select:focus{
+    min-width: 200px;
+}
+
+.userHeading{
+   
+    font-size: 27px;
+    margin-left: 24px;
+
+
+font-family:'Segoe UI';
+letter-spacing: 0;
+color: #353535;
+opacity: 1;
+}
+
+.name-col{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 12px;
+    color: #353535;
+    font-family:'Segoe UI';
+
+}
+
+.name-in{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
+.name-in2{
+    margin-top: 1px;
+    margin-left: -300px;
+}
+
+.name2{
+    margin-right: 52px;
+    margin-top:1px;
+}
+.about-col{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 12px;
+    color: #353535;
+    font-family:'Segoe UI';
+
+}
+
+.ach-col{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 12px;
+    color: #353535;
+    font-family:'Segoe UI';
+
+}
+
+.about-in{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
+.ach-in{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 2px;
+}

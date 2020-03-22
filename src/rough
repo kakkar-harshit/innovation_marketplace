@@ -1,0 +1,212 @@
+ <Router>
+        <div>
+          <nav>
+            <ul>
+              <li>
+                <Link to="/Register">Register</Link>
+              </li>
+              <li>
+                <Link to="/Login">Login</Link>
+              </li>
+            </ul>
+          </nav>
+  
+          {/* A <Switch> looks through its children <Route>s and
+              renders the first one that matches the current URL. */}
+          <Switch>
+            <Route path="/Register">
+              <Register />
+            </Route>
+            <Route path="/Login">
+              <Login />
+            </Route>
+            
+          </Switch>
+        </div>
+      </Router>
+    );
+
+
+
+
+    <form className={classes.root} Validate autoComplete="on">
+
+
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <img src={Mail} className="mail-icon" />
+                                    </div>
+                                    <TextField id="standard-basic" placeholder="Email" />
+                                </div>
+
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <img src={Padlock} className="pad-icon" />
+                                    </div>
+                                    <TextField id="standard-basic" placeholder="Password" />
+                                </div>
+
+
+                                <button className="button">Login</button>
+                            </form>
+
+
+
+import React from 'react';
+import { withStyles } from '@material-ui/core/styles';
+import FormGroup from '@material-ui/core/FormGroup';
+import Switch from '@material-ui/core/Switch';
+import Grid from '@material-ui/core/Grid';
+import Typography from '@material-ui/core/Typography';
+
+
+const AntSwitch = withStyles(theme => ({
+  root: {
+    width: 28,
+    height: 16,
+    padding: 0,
+    display: 'flex',
+  },
+  switchBase: {
+    padding: 2,
+    color: theme.palette.grey[500],
+    '&$checked': {
+      transform: 'translateX(12px)',
+      color: theme.palette.common.white,
+      '& + $track': {
+        opacity: 1,
+        backgroundColor: theme.palette.primary.main,
+        borderColor: theme.palette.primary.main,
+      },
+    },
+  },
+  thumb: {
+    width: 12,
+    height: 12,
+    boxShadow: 'none',
+  },
+  track: {
+    border: `1px solid ${theme.palette.grey[500]}`,
+    borderRadius: 16 / 2,
+    opacity: 1,
+    backgroundColor: theme.palette.common.white,
+  },
+  checked: {},
+}))(Switch);
+
+export default function CustomizedSwitches() {
+  const [state, setState] = React.useState({
+    checkedC: false,
+  });
+
+  const handleChange = name => event => {
+    setState({ ...state, [name]: event.target.checked });
+  };
+
+  return (
+    <FormGroup>
+          
+      <Typography component="div">
+        <Grid component="label" container alignItems="center" spacing={1}>
+          <Grid item>Off</Grid>
+          <Grid item>
+            <AntSwitch
+              checked={state.checkedC}
+              onChange={handleChange('checkedC')}
+              value="checkedC"
+            />
+          </Grid>
+          <Grid item>On</Grid>
+        </Grid>
+      </Typography>
+    </FormGroup>
+  );
+}
+
+
+
+
+
+ <switch/>
+                                <div class="custom-control custom-switch">
+
+                                
+                                    <input type="checkbox" class="custom-control-input" id="customSwitches" />
+                                    <label class="custom-control-label" for="customSwitches">New user-Sign up</label>
+                                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .grid-container {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "maili username" "padi password";
+  }
+  
+  .maili { grid-area: maili;
+    margin-top: 20px;
+    margin-right: 7px; }
+  
+  .username { grid-area: username; }
+  
+  .padi { grid-area: padi; 
+    margin-top: 20px;
+    margin-right: 7px;}
+  
+  .password { grid-area: password; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="grid-container">
+                    <div class="maili"><img src={mailicon} alt="mail logo" />|</div>
+                    <div class="username"><input type="text"
+                        className="input-box"
+                        placeholder="Username"
+                        name="username"
+                        ref={register({
+                            required: true,
+                            minLength: 7,
+                            maxLength: 7
+                        })} /></div>
+
+
+
+
+                    <div class="padi"><img src={padlock} alt="pad logo" /></div>
+                    <div class="password"><input type="password"
+                        className="input-box"
+                        placeholder="Password"
+                        name="password"
+                        ref={register({
+                            required: true,
+                            minLength: 8
+                        })} /></div>
+                </div>
+
+
+
+
+<Link to="/home/login/forgot">Forgot Password</Link>
