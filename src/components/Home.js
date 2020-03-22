@@ -37,7 +37,7 @@ function Home() {
         {/* <LoginHook/> */}
         <Route path='/home/register' component={RegisterHook}/>
         <Route path='/home/login' component={LoginHook}/>
-        <Router path='/home/forgot' component={ForgotHook}/>
+        <Route path='/home/forgot' component={ForgotHook}/>
         {/* <Route path='/home/forgot' component={ForgotHook}/> */}
         
         

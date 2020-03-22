@@ -71,7 +71,9 @@ const LoginHook = () => {
 
                             <div class="lt-grid-container">
                                 <div class="check"><input type="checkbox" />Remember me</div>
+                                
                                 <div class="line3"><Link to="/home/forgot">Forgot Password</Link></div>
+                               
                             </div>
 
 
